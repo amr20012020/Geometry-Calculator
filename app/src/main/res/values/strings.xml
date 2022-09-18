@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Geometry - Calculator</string>
+
+    <string name="area_rectangle_width_hint">Width</string>
+    <string name="area_rectangle_Height_hint">Height</string>
+    <string name="area_circle_radius_hint">Radius</string>
+    <string name="area_triangle_base_hint">Base</string>
+    <string name="area_triangle_Height_hint">Height</string>
+    <string name="area_calculate_text">Calculate</string>
+    
+    <string-array name="shapes">
+        <item>Select shape</item>
+        <item>Rectangle</item>
+        <item>Circle</item>
+        <item>Triangle</item>
+        <item>Ball</item>
+        <item>The cylinder</item>
+        <item>Parallelogrm</item>
+        <item>Perimeter of circle</item>
+        <item>Perimeter of rectangle</item>
+        <item>Size of Ball</item>
+    </string-array>
+
+</resources>

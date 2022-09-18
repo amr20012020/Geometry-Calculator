@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حساب - الاشكال الهندسيه</string>
+
+
+    <string name="area_rectangle_width_hint">العرض</string>
+    <string name="area_rectangle_Height_hint">الطول</string>
+    <string name="area_circle_radius_hint">نصف القطر</string>
+    <string name="area_triangle_base_hint">القاعده</string>
+    <string name="area_triangle_Height_hint">الارتفاع</string>
+    <string name="area_calculate_text">احسب</string>
+
+    <string-array name="shapes">
+        <item>اختر شكل</item>
+        <item>مستطيل</item>
+        <item>دائره</item>
+        <item>مثلث</item>
+        <item>كره</item>
+        <item>اسطوانه</item>
+        <item>متوازي اضلاع</item>
+        <item>محيط المربع</item>
+        <item>محيط الدائره</item>
+        <item>محيط المستطيل</item>
+        <item>محيط المثلث</item>
+        <item>محيط متوازي الاضلاع</item>
+        <item>حجم الكره</item>
+    </string-array>
+
+</resources>

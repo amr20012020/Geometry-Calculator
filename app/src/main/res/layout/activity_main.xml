@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="#ECECEC">
+
+
+    <Spinner
+        android:id="@+id/areas_sp_shapes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/shapes" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/areas_ed_rectangle_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_rectangle_width_hint"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/areas_ed_rectangle_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_rectangle_Height_hint"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/areas_et_circle_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/area_circle_radius_hint"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/areas_ed_triangle_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_triangle_base_hint"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/areas_ed_triangle_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/area_triangle_Height_hint"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_Calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_btn"
+        android:text="@string/area_calculate_text"
+        android:textColor="#FF1744" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center"
+        android:textColor="#29CBDD"
+        android:textColorLink="#470404"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
